@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Virtual</title>
+    <link rel="stylesheet" href="teclado.css">
+</head>
+<body>
+    <div>
+        <form>
+            <input type="button" value="Q" id="Q" onmousedown="aperta('Q')" onmouseup="solta('Q')">
+            <input type="button" value="W" id="W" onmousedown="aperta('W')" onmouseup="solta('W')">
+            <input type="button" value="E" id="E" onmousedown="aperta('E')" onmouseup="solta('E')">
+            <input type="button" value="R" id="R" onmousedown="aperta('R')" onmouseup="solta('R')">
+            <input type="button" value="T" id="T" onmousedown="aperta('T')" onmouseup="solta('T')">
+            <input type="button" value="Y" id="Y" onmousedown="aperta('Y')" onmouseup="solta('Y')">
+            <input type="button" value="U" id="U" onmousedown="aperta('U')" onmouseup="solta('U')">
+            <input type="button" value="I" id="I" onmousedown="aperta('I')" onmouseup="solta('I')">
+            <input type="button" value="O" id="O" onmousedown="aperta('O')" onmouseup="solta('O')">
+            <input type="button" value="P" id="P" onmousedown="aperta('P')" onmouseup="solta('P')">
+        </form>
+    </div>
+    <div>
+        <form>
+            <input type="button" value="A" id="A" onmousedown="aperta('A')" onmouseup="solta('A')">
+            <input type="button" value="S" id="S" onmousedown="aperta('S')" onmouseup="solta('S')">
+            <input type="button" value="D" id="D" onmousedown="aperta('D')" onmouseup="solta('D')">
+            <input type="button" value="F" id="F" onmousedown="aperta('F')" onmouseup="solta('F')">
+            <input type="button" value="G" id="G" onmousedown="aperta('G')" onmouseup="solta('G')">
+            <input type="button" value="H" id="H" onmousedown="aperta('H')" onmouseup="solta('H')">
+            <input type="button" value="J" id="J" onmousedown="aperta('J')" onmouseup="solta('J')">
+            <input type="button" value="K" id="K" onmousedown="aperta('K')" onmouseup="solta('K')">
+            <input type="button" value="L" id="L" onmousedown="aperta('L')" onmouseup="solta('L')">
+            <input type="button" value="Ç" id="Ç" onmousedown="aperta('Ç')" onmouseup="solta('Ç')">
+        </form>
+    </div>
+    <div>
+        <form>
+            <input type="button" value="Z" id="Z" onmousedown="aperta('Z')" onmouseup="solta('Z')">
+            <input type="button" value="X" id="X" onmousedown="aperta('X')" onmouseup="solta('X')">
+            <input type="button" value="C" id="C" onmousedown="aperta('C')" onmouseup="solta('C')">
+            <input type="button" value="V" id="V" onmousedown="aperta('V')" onmouseup="solta('V')">
+            <input type="button" value="B" id="B" onmousedown="aperta('B')" onmouseup="solta('B')">
+            <input type="button" value="N" id="N" onmousedown="aperta('N')" onmouseup="solta('N')">
+            <input type="button" value="M" id="M" onmousedown="aperta('M')" onmouseup="solta('M')">
+            <input type="button" value="," id="," onmousedown="aperta(',')" onmouseup="solta(',')">
+            <input type="button" value="." id="." onmousedown="aperta('.')" onmouseup="solta('.')">
+            <input type="button" value=";" id=";" onmousedown="aperta(';')" onmouseup="solta(';')">
+        </form>
+    </div>
+    <p id="aperta"></p>
+    <p id="solta"></p>
+    <script src="teclado.js"></script>
+</body>
+</html>
